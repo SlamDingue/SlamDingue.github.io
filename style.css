@@ -165,3 +165,23 @@ img{
    height: 300px;
 }
 
+#testimonials{
+   display: flex;
+   height: 70%;
+   gap: 32px;
+   padding: 50px;
+   justify-content: space-around;
+}
+
+.testimony p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+}
+
+.avatar {
+   width: 50px;
+   height: 50px;
+   border: solid 2px black;
+   border-radius: 100%;
+   object-fit: cover;
+}
