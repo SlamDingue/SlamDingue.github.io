@@ -6,6 +6,7 @@ html, body{
 
  body{
    display: flex;
+   font-family: 'Arial', sans-serif;
    flex-direction: column;
    font-family: "Poppins", sans-serif;
    font-weight: 800;
@@ -16,7 +17,6 @@ html, body{
 nav {
       /* width: 100%; */
       height: 80px;
-      background-color: blue;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -31,6 +31,7 @@ ul {
    gap: 10px;
    font-size: large;
    padding: 0;
+   align-items: center;
   }
  
  h3{
@@ -83,7 +84,7 @@ ul {
    /* width: 100%; */
    height: 60%;
    padding: 32px;
-   background-color: pink;
+   background-color: #0875E5;
 }
 
 #me{
@@ -134,7 +135,6 @@ img{
    gap: 32px;
    padding: 32px;
    justify-content: space-around;
-   background-color: yellow;
    flex-direction: column;
 }
 
@@ -163,7 +163,6 @@ img{
    justify-content: space-evenly;
    flex-wrap: wrap;
    justify-content: space-around;
-   background-color: green;
 }
 
 
@@ -186,7 +185,7 @@ img{
    padding: 32px;
    justify-content: space-around;
    flex-direction: column;
-   background: red;
+   background:  #0875E5;
 }
 
 
@@ -203,7 +202,6 @@ img{
    padding: 50px;
    justify-content: space-around;
    flex-direction: column;
-   background-color: brown;
 }
 
 .testimony p{
@@ -211,9 +209,6 @@ img{
    font-style: italic;
 }
 
-.fa-solid{
-   color: yellow;
-}
 
 footer{
    display: flex;
