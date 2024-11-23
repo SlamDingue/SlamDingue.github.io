@@ -179,7 +179,6 @@ img{
    padding: 32px;
    justify-content: space-around;
    flex-direction: column;
-   background-color:red; 
 }
 
 .project-container{
@@ -187,7 +186,6 @@ img{
    justify-content: space-evenly;
    flex-wrap: wrap;
    justify-content: space-around;
-   background-color: yellow;
    gap: 20px;
 }
 
@@ -229,7 +227,6 @@ img{
    justify-content:space-evenly;
    flex-wrap:wrap;
    justify-content: space-around;
-   background-color: yellow;
    gap: 20px;
    
  
@@ -262,11 +259,15 @@ img{
    padding: 10px;
    border-radius: 8px; /* Arrondi pour un effet moderne */
    height: auto;
+   background-color: #FF8000;
 }
+
+
 
 
 footer{
    display: flex;
+   background-color: #FF8000;
 }
 
 #contact{
