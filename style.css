@@ -161,15 +161,21 @@ img{
 
 .skill{
    display: flex;
-   flex-direction: column;
+   flex-direction: column; 
    align-items: center;
    justify-content: center;
-   width: 33%;
-   height: 100%;
-   background-color: #4335A7;
-   border-radius: 8px;
+   flex-basis: calc(33.333% - 20px); /* Trois colonnes */
+   box-sizing: border-box; /* Inclut le padding dans la largeur */
+   background-color: #4335A7; 
+   padding: 10px;
+   border-radius: 8px; 
+   height: auto; 
+
 }
 
+.skill h3{
+   font-weight: bolder;
+}
 /* Mes dernières réalisations */
 
 /* Section id projects */
@@ -197,9 +203,9 @@ img{
    justify-content: center;
    flex-basis: calc(33.333% - 20px); /* Trois colonnes */
    box-sizing: border-box; /* Inclut le padding dans la largeur */
-   background-color: #4335A7; /* Fond violet */
+   background-color: #4335A7; 
    padding: 10px;
-   border-radius: 8px; /* Arrondi pour un effet moderne */
+   border-radius: 8px;
    height: auto; /* Ajuste automatiquement à la taille du contenu */
       
 
@@ -218,7 +224,9 @@ img{
 }
 
 
-
+#projects h2{
+   font-weight: bolder;
+}
 
 
 /* Bloque Témoignages */
@@ -276,6 +284,11 @@ footer{
    flex-direction: column;
    align-items: flex-start;
    padding: 20px;
+}
+
+#contact h2{
+   color: blue;
+   font-weight: bold;
 }
 
 .button-contact{
