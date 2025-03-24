@@ -66,8 +66,9 @@ h3 {
 }
 
 .avatar {
-   width: 50px;
-   height: 50px;
+   width: 100%;
+   height: auto;
+   overflow: hidden;
    border: solid 2px black;
    border-radius: 100%;
    object-fit: cover;
@@ -90,6 +91,7 @@ h3 {
 
 #picture-presentation {
    width: 100%;
+   overflow: hidden;
 }
 
 #picture-presentation img {
@@ -297,5 +299,8 @@ footer {
    img {
        width: 100%;
        height: auto;
+   }
+   .avatar {
+      max-width: 40px;
    }
 }
