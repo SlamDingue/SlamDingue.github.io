@@ -4,11 +4,8 @@ html, body{
     margin: 0;
  }
 
- @media screen and (max-width: 800px) {
-   
- }
-   
- }
+ 
+
 
  body{
    display: flex;
@@ -309,4 +306,36 @@ footer{
    align-items: center;
    justify-content: center;
    gap: 16px;
+}
+
+/* Media Queries ( Avoir un site qui s'adapte à tout support : mobile, ordinateur)*/
+@media screen and (max-width: 800px) {
+   nav {
+       flex-direction: column;
+       align-items: flex-start;
+   }
+
+   ul {
+       flex-direction: column;
+       align-items: flex-start;
+   }
+
+   #description, #skills, #projects, #testimonials {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .skill-container, .project-container, .testimonial-container {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .skill, .project, .testimony {
+       width: 100%;
+   }
+
+   img {
+       width: 100%;
+       height: auto;
+   }
 }
