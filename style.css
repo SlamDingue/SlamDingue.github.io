@@ -4,6 +4,12 @@ html, body{
     margin: 0;
  }
 
+ @media screen and (max-width: 800px) {
+   
+ }
+   
+ }
+
  body{
    display: flex;
    font-family: 'Arial', sans-serif;
