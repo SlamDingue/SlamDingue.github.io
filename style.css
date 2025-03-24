@@ -1,38 +1,28 @@
-html, body{
-    width: 100%;
-    height: auto;  
-    margin: 0;
- }
-
- 
-
-
- body{
-   display: flex;
+html, body {
+   width: 100%;
+   height: auto;
+   margin: 0;
    font-family: 'Arial', sans-serif;
+}
+
+body {
+   display: flex;
    flex-direction: column;
    font-family: "Poppins", sans-serif;
    font-weight: 800;
    gap: 80px;
- }
+}
 
- /* Navigateur */
 nav {
-      /* width: 100%; */
-      height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      font-weight: normal;
-      padding: 32px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-weight: normal;
+   padding: 32px;
+   background-color: #FF8000;
+}
 
-      background-color: #FF8000;
- }
-
-
-
-
- /* On enlève les tirets de la liste et on met en horizontal */
 ul {
    list-style-type: none;
    display: flex;
@@ -40,19 +30,18 @@ ul {
    font-size: large;
    padding: 0;
    align-items: center;
-  }
- 
- h3{
+}
+
+h3 {
    font-weight: normal;
- }
- 
- .link{
+}
+
+.link {
    text-decoration: none;
    color: black;
-   
- }
+}
 
- .button {
+.button {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -76,8 +65,7 @@ ul {
    display: flex;
 }
 
-/* Mise en page avatar */
-.avatar{
+.avatar {
    width: 50px;
    height: 50px;
    border: solid 2px black;
@@ -85,43 +73,39 @@ ul {
    object-fit: cover;
 }
 
- *
-/*Description*/
-#description{
+#description {
    display: flex;
-   /* width: 100%; */
-   height: 60%;
    padding: 32px;
    background-color: #FF8000;
-}
-
-#me{
-   display: flex;
-   width: 70%;
    flex-direction: column;
-   align-items: flex-start;
+   align-items: center;
+}
 
-}
-#picture-presentation{
-   width: 30%;
-}
-#picture-presentation img{
+#me {
+   display: flex;
    width: 100%;
-   height :300px;
-   object-fit: cover;
-   
+   flex-direction: column;
+   align-items: center;
 }
 
- h2{
+#picture-presentation {
+   width: 100%;
+}
+
+#picture-presentation img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+h2 {
    display: flex;
    flex-direction: row;
    justify-content: center;
    font-weight: normal;
-
 }
 
-
-h1{
+h1 {
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -129,65 +113,54 @@ h1{
    color: #4335A7;
 }
 
-
-p{
-   display:flex ;
+p {
+   display: flex;
    font-size: small;
    font-weight: normal;
 }
 
-img{
-   width: 120px;
-   height: 120px;
+img {
+   width: 100%;
+   height: auto;
    object-fit: cover;
 }
 
-
-/* Bloque Compétences */
-#skills{
+#skills {
    display: flex;
    gap: 32px;
    padding: 32px;
    justify-content: space-around;
    flex-direction: column;
    text-align: center;
-   
 }
 
-
-.skill-container{
-   display:flex;
+.skill-container {
+   display: flex;
    align-items: center;
-   flex-wrap:wrap;
+   flex-wrap: wrap;
    width: 100%;
    gap: 20px;
    justify-content: space-around;
-   }
+}
 
-
-.skill{
+.skill {
    display: flex;
-   flex-direction: column; 
+   flex-direction: column;
    align-items: center;
    justify-content: center;
-   flex-basis: calc(33.333% - 20px); /* Trois colonnes */
-   box-sizing: border-box; /* Inclut le padding dans la largeur */
-   background-color: #4335A7; 
+   flex-basis: calc(33.333% - 20px);
+   box-sizing: border-box;
+   background-color: #4335A7;
    padding: 10px;
-   border-radius: 8px; 
-   height: auto; 
-
+   border-radius: 8px;
+   height: auto;
 }
 
-.skill h3{
+.skill h3 {
    font-weight: bolder;
-
-
 }
-/* Mes dernières réalisations */
 
-/* Section id projects */
-#projects{
+#projects {
    display: flex;
    gap: 32px;
    padding: 32px;
@@ -195,7 +168,7 @@ img{
    flex-direction: column;
 }
 
-.project-container{
+.project-container {
    display: flex;
    justify-content: space-evenly;
    flex-wrap: wrap;
@@ -203,51 +176,44 @@ img{
    gap: 20px;
 }
 
-
 .project {
    display: flex;
-   flex-direction: column; /* Place le contenu verticalement */
+   flex-direction: column;
    align-items: center;
    justify-content: center;
-   flex-basis: calc(33.333% - 20px); /* Trois colonnes */
-   box-sizing: border-box; /* Inclut le padding dans la largeur */
-   background-color: #4335A7; 
+   flex-basis: calc(33.333% - 20px);
+   box-sizing: border-box;
+   background-color: #4335A7;
    padding: 10px;
    border-radius: 8px;
-   height: auto; /* Ajuste automatiquement à la taille du contenu */
-      
-
+   height: auto;
 }
 
 .project a {
    width: 100%;
    background-color: white;
-   
 }
-.project img{
+
+.project img {
    width: 100%;
-   height: 300px;
+   height: auto;
    object-fit: cover;
    background-color: #FF8000;
 }
 
-
-#projects h2{
+#projects h2 {
    font-weight: bolder;
 }
 
-
-/* Bloque Témoignages */
-.testimonial-container{
-   display:flex;
-   justify-content:space-evenly;
-   flex-wrap:wrap;
+.testimonial-container {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
    justify-content: space-around;
    gap: 20px;
-   
- 
 }
-#testimonials{
+
+#testimonials {
    display: flex;
    height: 70%;
    gap: 32px;
@@ -256,59 +222,53 @@ img{
    flex-direction: column;
 }
 
-.testimony p{
+.testimony p {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-style: italic;
-
 }
 
-.testimony{
-  padding: 15px;
-   box-shadow: 0px 4px 6px rgba(0,0,0, 0.1);
+.testimony {
+   padding: 15px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
    display: flex;
-   flex-direction: column; /* Place le contenu verticalement */
+   flex-direction: column;
    align-items: center;
    justify-content: center;
-   flex-basis: calc(33.333% - 20px); /* Trois colonnes */
-   box-sizing: border-box; /* Inclut le padding dans la largeur */
-   background-color: #4335A7; /* Fond violet */
+   flex-basis: calc(33.333% - 20px);
+   box-sizing: border-box;
+   background-color: #4335A7;
    padding: 10px;
-   border-radius: 8px; /* Arrondi pour un effet moderne */
+   border-radius: 8px;
    height: auto;
    background-color: #FF8000;
 }
 
-
-
-
-footer{
+footer {
    display: flex;
    background-color: #FF8000;
 }
 
-#contact{
+#contact {
    display: flex;
-   width: 56%;
+   width: 100%;
    flex-direction: column;
    align-items: flex-start;
    padding: 20px;
 }
 
-#contact h2{
+#contact h2 {
    color: blue;
    font-weight: bold;
 }
 
-
-
-.button-contact{
+.button-contact {
    display: flex;
    align-items: center;
    justify-content: center;
    gap: 16px;
 }
 
-/* Media Queries ( Avoir un site qui s'adapte à tout support : mobile, ordinateur)*/
+/* Media Queries */
 @media screen and (max-width: 800px) {
    nav {
        flex-direction: column;
