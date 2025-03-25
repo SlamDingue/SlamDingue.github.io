@@ -284,7 +284,7 @@ footer {
 }
 
 /* Media Queries for Responsiveness */
-@media screen and (max-width: 800px) {
+@media screen and (max-width:  992px) {
    nav {
        flex-direction: column;
        align-items: flex-start;
