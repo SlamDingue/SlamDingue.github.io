@@ -286,13 +286,18 @@ footer {
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 800px) {
    nav {
-       flex-direction: column;
-       align-items: flex-start;
+       flex-direction: row; /* Keep the nav bar in a row */
+       justify-content: space-between;
    }
 
    ul {
-       flex-direction: column;
-       align-items: flex-start;
+       flex-direction: row; /* Keep the nav items in a row */
+       align-items: center;
+   }
+
+   .avatar {
+       width: 30px; /* Adjust size for mobile */
+       height: 30px;
    }
 
    #description, #skills, #projects, #testimonials {
@@ -314,5 +319,6 @@ footer {
        height: auto;
    }
 }
+
 
 
