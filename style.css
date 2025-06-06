@@ -310,33 +310,24 @@ img {
     object-fit: cover;
 }
 
-#picture-presentation img {
-    width: 100%;
-    height: auto; /* Utilisez height: auto pour maintenir les proportions */
-}
 
-.project img {
-    width: 100%;
-    height: auto; /* Utilisez height: auto pour maintenir les proportions */
-}
 
 
 /* Media Queries ( Avoir un site qui s'adapte à tout support : mobile, ordinateur)*/
-@media screen and (max-width: 800px) {
-   nav, ul, #description, #skills, #projects, #testimonials {
-        flex-direction: column;
-        align-items: center;
-    }
+  @media screen and (max-width: 800px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
 
-    .skill, .project, .testimony {
-        width: 100%;
-        margin-bottom: 20px; /* Ajoutez un espace entre les éléments */
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
+  ul {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+img {
+    max-width: 100%;
+    height: auto; /* Assure que la hauteur s'ajuste proportionnellement */
+    object-fit: cover;
 }
 
 
