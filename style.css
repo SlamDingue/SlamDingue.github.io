@@ -30,6 +30,10 @@ nav {
 }
 
 
+.logo {
+    width: 10%; /* Ajustez le pourcentage selon vos besoins */
+    height: auto;
+}
 
 
 /* On enlève les tirets de la liste et on met en horizontal */
@@ -304,11 +308,7 @@ footer{
   gap: 16px;
 }
 
-img {
-    max-width: 100%;
-    height: auto; /* Assure que la hauteur s'ajuste proportionnellement */
-    object-fit: cover;
-}
+
 
 
 
