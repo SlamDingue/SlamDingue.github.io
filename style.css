@@ -326,12 +326,14 @@ img {
   ul {
       flex-direction: column;
       align-items: flex-start;
-  }
+ color-scheme: ;
+ }
+ 
 img {
     max-width: 100%;
     height: auto; /* Assure que la hauteur s'ajuste proportionnellement */
     object-fit: cover;
 }
 
-
+}
 
