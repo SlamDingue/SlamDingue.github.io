@@ -310,8 +310,11 @@ footer{
 
 
 
-
-
+img {
+    max-width: 100%;
+    height: auto; /* Assure que la hauteur s'ajuste proportionnellement */
+    object-fit: cover;
+}
 
 /* Media Queries ( Avoir un site qui s'adapte à tout support : mobile, ordinateur)*/
   @media screen and (max-width: 800px) {
